@@ -147,6 +147,7 @@ export default function Header() {
                 </DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onSelect={() => router.push('/profile')} className="cursor-pointer dark:text-white dark:font-bold">
+                  
                   User Profile
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
